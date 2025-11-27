@@ -1,0 +1,25 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# C++ 编译生成目录
+build/
+x64/
+Debug/
+Release/
+*.exe
+*.so
+*.dll
+*.lib
+*.exp
+
+# IDE 配置
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.user
+
+# 临时文件
+*.log
+.DS_Store

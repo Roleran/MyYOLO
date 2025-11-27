@@ -1,0 +1,13 @@
+# 这里的 path 是数据集的根目录
+path: C:/Users/1/Desktop/MyYOLO/train_python/datasets
+
+# 训练集和验证集都指向同一个图片文件夹 'imgs'
+# YOLO 会自动去同级的 'labels' 文件夹下找同名的 txt 文件
+train: images
+val: images
+
+# 类别设置
+nc: 2
+names:
+  0: car
+  1: truck
